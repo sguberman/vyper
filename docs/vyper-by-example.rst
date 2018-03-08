@@ -22,7 +22,6 @@ bid.
 
 .. literalinclude:: ../examples/auctions/simple_open_auction.v.py
   :language: python
-  :linenos:
 
 As you can see, this example only has a constructor, two methods to call, and
 a few variables to manage the contract state. Believe it or not, this is all we
@@ -158,7 +157,6 @@ Let's go!
 
 .. literalinclude:: ../examples/safe_remote_purchase/safe_remote_purchase.v.py
   :language: python
-  :linenos:
 
 This is also a moderately short contract, however a little more complex in
 logic. Let's break down this contract bit by bit.
@@ -248,7 +246,6 @@ funding does not reach its target goal.
 
 .. literalinclude:: ../examples/crowdfund.v.py
   :language: python
-  :linenos:
 
 Most of this code should be relatively straightforward after going through our
 previous examples. Let's dive right in.
@@ -354,7 +351,6 @@ all the proposals and returns the one with the greatest number of votes.
 
 .. literalinclude:: ../examples/voting/ballot.v.py
   :language: python
-  :linenos:
 
 As we can see, this is contract of moderate length which we will dissect
 section by section. Let’s begin!
@@ -491,7 +487,6 @@ Let's get started.
 
 .. literalinclude:: ../examples/stock/company.v.py
   :language: python
-  :linenos:
 
 The contract contains a number of methods that modify the contract state as
 well as a few 'getter' methods to read it. As always, we begin by initiating
